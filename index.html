@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Quality Cell</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-mobile-screen" id="nav_logo"> Quality Cell</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://maps.app.goo.gl/2QkUWfC3SkvR2Jh29">Localização</a>
+                </li>
+            </ul>
+            
+            <button class="btn-default">
+                <a href="https://wa.me/5591982067595" target="_blank" class="btn-link">
+                    Veja seu orçamento
+                </a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://maps.app.goo.gl/2QkUWfC3SkvR2Jh29">Localização</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://wa.me/5591982067595" target="_blank" class="btn-link">
+                    Veja seu orçamento
+                </a>
+            </button>
+        </div>
+    </header>
+
+    <main id="content" background="src/images/hero.png">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Seu Celular com Problema? Nós Temos a  
+                    <span>Solução!</span>
+                </h1>
+
+                <p class="description">
+                    Oferecemos serviços rápidos e confiáveis para todos os tipos de reparo em celulares. Com uma equipe especializada e experiência, garantimos que seu dispositivo voltará a funcionar como novo. Confie na nossa qualidade e agende seu atendimento agora mesmo!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="https://wa.me/5591982067595" class="btn-default">
+                        Ver serviços
+                    </a>
+
+                    <a href="tel:+5591982067595" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (91) 98206-7595
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5591982067595" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/cell_quality_ananindeua" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/people/Quality-Cell/61555897654445/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/2QkUWfC3SkvR2Jh29" target="_blank">
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Nossos serviços especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h4 class="dish-title">
+                        Reparo de tela quebrada
+                    </h4>
+
+                    <span class="dish-description">
+                        Quebrou a tela do seu celular? Não se preocupe! Oferecemos reparo rápido e de qualidade para deixar seu dispositivo como novo. Agende já!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(150+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <a href="https://wa.me/5591982067595" target="_blank" class="btn-link">
+                        <button class="btn-default">
+                            <h4>Agende agora!</h4>
+                        </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h4 class="dish-title">
+                        Manutenção de bateria
+                    </h4>
+
+                    <span class="dish-description">
+                        Bateria com problemas? Nós cuidamos disso! Realizamos a troca ou reparo com qualidade e rapidez. Deixamos seu celular pronto para uso!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(167+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <a href="https://wa.me/5591982067595" target="_blank" class="btn-link">
+                            <button class="btn-default">
+                                <h4>Agende agora!</h4>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h4 class="dish-title">
+                        Falha de carregamento
+                    </h4>
+
+                    <span class="dish-description">
+                        Problemas para carregar o celular? Consertamos com agilidade e precisão para que você volte a usar seu dispositivo sem preocupações!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(354+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <a href="https://wa.me/5591982067595" target="_blank" class="btn-link">
+                            <button class="btn-default">
+                                <h4>Agende agora!</h4>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h4 class="dish-title">
+                        Troca de vidro traseiro
+                    </h4>
+
+                    <span class="dish-description">
+                        Vidro traseiro danificado? Fazemos a troca com rapidez e qualidade, deixando seu celular com aparência de novo e protegido!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <a href="https://wa.me/5591982067595" target="_blank" class="btn-link">
+                            <button class="btn-default">
+                                <h4>Agende agora!</h4>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <b>Fernanda Lívia</b>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Parabéns ao rapaz que me atendeu muito atencioso, Serviço rápido e orçamento muito bom super satisfeito achava que nao tinha mais solução pro meu celular Parabéns equipe quality cell.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar1.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <b>Ana Sampaio</b>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Ótimo atendimento, muito simpático e caprichoso! resolveu meu problema rapidinho, por um preço acessível e justo💗💗!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+      
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Quality Cell
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://wa.me/5591982067595" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/cell_quality_ananindeua" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/people/Quality-Cell/61555897654445/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="https://maps.app.goo.gl/2QkUWfC3SkvR2Jh29" target="_blank">
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                </a>                
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+    <a href="https://wa.me/5591982067595" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>
