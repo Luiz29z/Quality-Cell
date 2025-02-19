@@ -34,6 +34,7 @@ body {
 
 section {
     padding: 28px 8%;
+    scroll-margin-top: 91px;
 }
 
 .btn-default {

@@ -1,0 +1,65 @@
+#brands-carousel {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#brands-carousel h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#brands-carousel h2 span {
+    color: #283747;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 30px;
+}
+
+.carousel-item {
+    flex: 0 0 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-item img {
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        flex: 0 0 120px;
+        height: 80px;
+    }
+    
+    .carousel-item img {
+        max-width: 90px;
+    }
+}
